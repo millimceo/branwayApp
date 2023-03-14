@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-size:16px;
+	line-height: 1;
+	word-break: keep-all;
+}
+#device--mobile {
+    display: flex;    
+    height: 100vh;
+    width: 100vw;
+    max-width: 480px;
+    position: relative;
+    box-sizing: border-box;
+}
+#app--header {
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80px;
+    max-width: 480px;
+    background-color: white;
+}
+header .header--container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 24px;
+}
+header .header--container > aside {
+    display: flex;
+}
+header .header--container > aside.btn--wrapper > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#app--navigation {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    max-width: 480px;
+    top: calc(100vh - 50px);
+    height: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+nav .nav--container {
+    display: flex;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+nav .nav--container .nav--wrapper {
+    display: flex;
+    background-color: #fff;
+    width: 100vw;
+    max-width: 480px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+nav .nav--container .nav--wrapper > li{
+    display: flex;
+}
+nav .nav--container .nav--wrapper > li > a{
+    display:flex;
+    padding: 0px 16px;
+    border: 1px solid red;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+}
+
+body main div.content {
+    height: 1800px;
+    background-color: red;
+    width: 100vw;
+    max-width: 480px;
+}
