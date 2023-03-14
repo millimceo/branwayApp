@@ -6,6 +6,7 @@ body {
     font-size:16px;
 	line-height: 1;
 	word-break: keep-all;
+    color: #364663;
 }
 #device--mobile {
     display: flex;    
@@ -20,7 +21,7 @@ body {
     position: fixed;
     box-sizing: border-box;
     width: 100vw;
-    height: 80px;
+    height: 60px;
     max-width: 480px;
     background-color: white;
 }
@@ -38,8 +39,6 @@ header .header--container > aside.btn--wrapper > ul {
     display: flex;
     justify-content: flex-end;
 }
-
-
 
 #app--navigation {
     display: flex;
@@ -78,9 +77,18 @@ nav .nav--container .nav--wrapper > li > a{
     align-items: center;
 }
 
-body main div.content {
-    height: 1800px;
-    background-color: red;
+body main div.content--area {
+    display: flex;
+    height: 100vh;
+    background-color: #f7f7f7;
     width: 100vw;
     max-width: 480px;
+    margin-top: 60px;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+body main div.content--area > div {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid green;
 }
